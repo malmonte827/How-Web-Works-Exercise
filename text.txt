@@ -1,0 +1,25 @@
+1. HTTP stands for hyper text transfer protocol. Its how web clients and web servers communicate with each pther.
+
+2. URL stands for Uniform Resouce Locator and its basically and address for a webpage.
+
+3. DNS Stand for domain name system, its takes URLs that are easily readable by humans and translates that into ip adresses.
+
+4. A query String is a part of a URL that allows
+
+5. GET is used to get data from a server.
+    POST is used to send data to a server.
+
+6. An HTTP request is a request sent from the client to a server using the http protocol to recieve a resource.
+
+7. An HTTP response is a response from a server to a client using the http protocol to give it a resource.
+
+8. HTTp headers contain metadata from the HTTP request or response.
+    Request headers ex. Acccept, Accept-Language, Host, User-Agent
+    Response headers ex. Content-Type, Date, Last- Modified, Set-Cookie
+
+9. Browser turns the URL into an ip adress using DNS
+    Using the ip adress the browser sends a request to that ip
+    The server sends back a response, usaully its HTMl
+    The browser uses the HTML to make the DOM
+    The Browser searches for any other resource needed for the page
+    The browser sends additional HTTP requests for the missing resources
